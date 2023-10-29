@@ -114,8 +114,8 @@ showResult(`Scissor`, comp, result);
               score.tie++;
               return `It's a tie`;
             } else if (comp === "Paper") {
-              score.lost++;
-              return "Computer won";
+              score.win++;
+              return "User won";
             } else {
               score.lost++;
               return "Computer won";
